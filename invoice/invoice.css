@@ -1,0 +1,240 @@
+.arrow-left-icon {
+  width: 30px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kembali {
+  position: relative;
+  font-weight: 500;
+}
+.arrow-left-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.skomfest {
+  background: linear-gradient(90deg, #fff 49.04%, #00b7ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.invoice-skomfest {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  flex-shrink: 0;
+}
+.inv-2025-0001 {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+}
+.invoice-skomfest-parent {
+  width: 278px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frame-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid rgba(77, 77, 77, 0.5);
+  box-sizing: border-box;
+  height: 1px;
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 32px;
+  font-family: Poppins;
+}
+.aiman-wafii-an {
+  position: relative;
+  font-size: 20px;
+  font-family: Poppins;
+  text-align: right;
+}
+.nama-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.rp-298000 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Poppins;
+  text-align: right;
+}
+.tiket-skomfest-silver-crown-parent {
+  align-self: stretch;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+.total {
+  position: relative;
+  font-weight: 600;
+}
+.rp-278000 {
+  position: relative;
+  font-weight: 500;
+  font-family: Poppins;
+  text-align: right;
+}
+.total-parent {
+  align-self: stretch;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  font-size: 24px;
+}
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+.frame-icon {
+  align-self: stretch;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 300px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #00b7ad;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.frame-parent3 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 20px;
+  color: #131313;
+  font-family: Poppins;
+}
+.frame-group {
+  width: 914px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #131313;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+  margin: 0 auto; /* center di layar */
+  box-sizing: border-box;
+  gap: 30px;
+  text-align: left;
+  font-size: 22px;
+  color: #fff;
+  font-family: Outfit;
+  width: 100%; /* biar fleksibel */
+  margin: 0 auto; /* center di layar */
+}
+.frame-parent {
+  max-width: 974px; /* biar ukurannya gak terlalu lebar */
+  width: 100%; /* otomatis menyesuaikan lebar layar */
+  margin: 50px auto; /* ganti "top:100px" dengan margin atas */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.invoice {
+  width: 100%;
+  position: relative;
+  background-color: #0d0d0d;
+  height: 1343px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 22px;
+  color: #fff;
+  font-family: Poppins;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* center horizontal */
+  align-items: center; /* center vertical */
+  background: #1a1a1a; /* biar keliatan */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .frame-wrapper {
+    padding: 20px 18px; /* padding lebih kecil */
+    margin: 0 5px;
+    max-width: 100%; /* biar full di layar kecil */
+  }
+  .frame-parent {
+    width: 100%;
+    max-width: 100%;
+  }
+}

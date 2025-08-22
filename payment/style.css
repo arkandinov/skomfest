@@ -1,0 +1,451 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.ticket-payment {
+  width: 100%;
+  position: relative;
+  background-color: #0d0d0d;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: 22px;
+  color: #fff;
+  font-family: Poppins;
+}
+
+.frame-parent {
+  position: relative;
+  margin: 50px auto 0 auto;
+  width: 100%;
+  max-width: 1222px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.arrow-left-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.frame-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.isi-data-diri-parent {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.isi-data-diri {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.frame-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.kembali {
+  position: relative;
+  font-weight: 500;
+}
+
+.nama {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+/* .masukkan-nama-anda {
+  position: relative;
+} */
+.input {
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid rgba(77, 77, 77, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #131313;
+  font-family: Outfit;
+  box-sizing: border-box;
+}
+.nama-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.detail-pembayaran {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 1px;
+  flex-shrink: 0;
+}
+.tiket-skomfest-silver {
+  flex: 1;
+  position: relative;
+}
+.tiket-skomfest-silver-crown-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 155px;
+}
+.button {
+  border-radius: 8px;
+  background-color: #00b7ad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
+  color: #131313;
+  font-family: Poppins;
+}
+.input3 {
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid rgba(77, 77, 77, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #131313;
+  font-family: Outfit;
+}
+
+.coupon-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+}
+
+.coupon-btn {
+  background: #00c4b3;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+}
+
+.frame-item {
+  width: 50px;
+  position: relative;
+  max-height: 200%;
+  object-fit: cover;
+}
+.rectangle-wrapper {
+  width: 88px;
+  border-radius: 8px;
+  background-color: #131313;
+  border: 1px solid rgba(77, 77, 77, 0.5);
+  box-sizing: border-box;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+}
+.div {
+  width: 46px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.wrapper {
+  border-radius: 8px;
+  background-color: #131313;
+  border: 1px solid rgba(77, 77, 77, 0.5);
+  box-sizing: border-box;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.frame-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+.included {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Poppins;
+  text-align: right;
+}
+.frame-parent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-family: Outfit;
+}
+.line-div {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid rgba(77, 77, 77, 0.5);
+  box-sizing: border-box;
+  height: 1px;
+}
+.rp-278000 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+}
+.line-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.syarat-ketentuan {
+  margin: 0;
+}
+.syarat-ketentuan-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #00b7ad;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  color: #131313;
+}
+.frame-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  color: #fff;
+  font-family: Poppins;
+}
+.input-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 18px;
+  font-family: Outfit;
+}
+.detail-pembayaran-parent {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+.frame-wrapper1 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 28px;
+}
+
+/* === Responsive === */
+@media (max-width: 1024px) {
+  .frame-group {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame-parent {
+    top: 20px;
+    padding: 0 15px;
+  }
+  .tiket-skomfest-silver-crown-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .button1 {
+    font-size: 18px;
+    padding: 14px;
+    width: 100%;
+  }
+  .input,
+  .input3 {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 18px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .frame-parent {
+    top: 10px;
+    padding: 0 10px;
+  }
+
+  .rectangle-wrapper {
+    width: 75px;
+  }
+
+  .frame-wrapper1,
+  .frame-wrapper,
+  .detail-pembayaran-parent,
+  .isi-data-diri-parent {
+    max-width: 100%; /* biar otomatis full */
+    padding: 15px;
+  }
+
+  .input,
+  .input3 {
+    width: 100%;
+    /* font-size: 14px; */
+    padding: 10px 14px;
+    box-sizing: border-box;
+  }
+
+  .button1 {
+    /* font-size: 16px; */
+    padding: 12px;
+  }
+
+  .coupon-input {
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    /* font-size: 18px; */
+  }
+
+  .isi-data-diri,
+  .detail-pembayaran {
+    /* font-size: 16px; */
+  }
+
+  .syarat-ketentuan-container {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}
